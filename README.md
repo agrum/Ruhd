@@ -17,7 +17,7 @@ Ruhd is a card game. Each card is a square tile where each side has a color and 
 3. Draw a tile from the deck, if the deck is not empty
 ## Scoring points
 1. One-side rule: If you placed your tile against no-more than 1 tile on the board, you score 1 point
-2. Diff-diff rule: If a side from the tile you placed touches a side of a different color, you score the number difference between those 2 tiles
+2. Diff-diff rule: If a side from the tile you placed touches a side of a different color, you score the number difference between those 2 tiles, the higest number minus the smallest number
 3. Same-same rule: If a side from the tile you placed touches a side of the same color and number, you score that number
 4. Pattern rule: If you created a recurring pattern of 3 or more colors or numbers in 1 direction, you score 2 points. Extending an existing patter doesn't grant points
 All the rules cummulate, and the pattern rule can trigger multiple times if more than 1 pattern was created.
@@ -42,10 +42,20 @@ Below, the blue pattern already existed, placing this tile will not grant any pa
 
 ![Pattern4](https://user-images.githubusercontent.com/2688838/224567064-7cab0ebd-b125-4fff-88e5-2649c042e747.png)
 
-Below is an odd example, but valid nonetheless. Because the pattern didn't exist yet, creating the pattern of 5 yellows on the right grants 2 points. A pattern is only considered already existing if at least 3 tiles are connected. 
+Below is an odd example, but valid nonetheless. Because the pattern didn't exist yet, creating the pattern of 5 yellows on the right grants 2 points. A pattern is only considered already existing if at least 3 tiles were connected. 
 
 ![Pattern5](https://user-images.githubusercontent.com/2688838/224566532-00f5341c-c7e2-4292-8584-a58ad78a2543.png)
 
 ### Scoring example
+
+![Scoring1](https://user-images.githubusercontent.com/2688838/224567666-7127d794-8ea4-4155-9f1d-745fd4e88790.png)
+
+1. The one-side rule doesn't apply since the tile is palced against 2 tiles
+2. The left side of the placed tile uses the Diff-diff rule, which equates to 2 minus 1, thus 1 point
+3. The bottom side of the placed tile uses the Same-same rule, which equates to 3 points because the facing numbers are 3s
+4. A pattern of reds is created on the left, granting 2 points
+5. A pattern of 1s is also created on the left side, granting 2 more points
+The total for this tile placement is 8 points.
+
 ## Special thanks
 Thanks to my friends who helped iterating the game to what it is now.
