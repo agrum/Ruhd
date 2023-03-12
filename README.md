@@ -65,7 +65,7 @@ Below, the blue pattern already existed, placing this tile will not grant any pa
 
 ![Pattern4](https://user-images.githubusercontent.com/2688838/224567064-7cab0ebd-b125-4fff-88e5-2649c042e747.png)
 
-Below, the tile is placed on the right side of an existing one. When placing a tile on the right or left of an existing tile, only horizontal patterns - pointing left or right - can be counted on that axis. The 3 yellows facing up do not count as a pattern. Similarly, if a tile is placed above or below an existing tile, only vertical patterns - pointing up or down - can be counted on that axis.
+Below, the tile is placed on the right side of an existing one. When placing a tile on the right or left of an existing tile, only horizontal patterns - pointing left or right - can be counted on that axis. The 3 yellows facing down do not count as a pattern. Similarly, if a tile is placed above or below an existing tile, only vertical patterns - pointing up or down - can be counted on that axis.
 
 ![Pattern6](https://user-images.githubusercontent.com/2688838/224571677-5ff43be9-d049-4597-a748-84ed37f64bff.png)
 
