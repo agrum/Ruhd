@@ -72,14 +72,15 @@ Below, the tile is placed on the right side of an existing one. When placing a t
 
 ### Scoring example
 
-![Scoring1](https://user-images.githubusercontent.com/2688838/224567666-7127d794-8ea4-4155-9f1d-745fd4e88790.png)
+![Scoring1](https://user-images.githubusercontent.com/2688838/224573145-b95c2367-41f2-4572-ac21-7d37baeed347.png)
 
 1. The one-side rule doesn't apply since the tile is palced against 2 tiles
 2. The left side of the placed tile uses the Diff-diff rule, which equates to 2 minus 1, thus 1 point
 3. The bottom side of the placed tile uses the Same-same rule, which equates to 3 points because the facing numbers are 3s
-4. A pattern of reds is created on the left, granting 2 points
-5. A pattern of 1s is also created on the left side, granting 2 more points
-The total for this tile placement is 8 points.
+4. A pattern of reds facing left is created on the left, granting 2 points
+5. A pattern of 1s facing left is also created on the left side, granting 2 more points
+5. A pattern of greens facing up is also created on the bottom side, granting 2 more points
+The total for this tile placement is 10 points.
 
 ## Special thanks
 Thanks to my friends who helped iterating the game to what it is now.
