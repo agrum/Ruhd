@@ -20,10 +20,13 @@ Ruhd is a card game. Each card is a square tile where each side has a color and 
 2. Diff-diff rule: If a side from the tile you placed touches a side of a different color, you score the difference between the 2 facing numbers, the higest number minus the smallest number
 3. Same-same rule: If a side from the tile you placed touches a side of the same color and number, you score that number
 4. Pattern rule: If you created a pattern of 3 identical colors or numbers in the same axis of the tile you placed against, you score 2 points. Extending an existing pattern doesn't grant points
+
 All the rules are cummulative:
 - When placing a tile beside more than 1 tile on the board, each side can trigger the Diff-diff or Same-same rule
 - The pattern rule triggers as many times as there were patterns created
+
 After scoring, if you drew your new tile, or if the next player already placed their tile, you cannot claim points that you might have forgotten or missed.
+
 Ruhd doesn't come with scoring tokens, so use a pen and paper, or a scoring app.
 ### Pattern rule
 Here are some examples of what triggers the pattern rule, and what doesn't. The highlighted tile is the tile placed by the player.
@@ -40,13 +43,20 @@ Below are two patterns. The left side has a blue triplet while the right side ha
 
 ![Pattern3](https://user-images.githubusercontent.com/2688838/224567071-0f3b02ce-d76d-4523-94ae-645d8abb8137.png)
 
+Below is an odd example, but valid nonetheless. Because the pattern didn't exist yet, creating the pattern of 5 yellows on the right grants 2 points. A pattern is only considered already existing if at least 3 tiles were connected. 
+
+![Pattern5](https://user-images.githubusercontent.com/2688838/224566532-00f5341c-c7e2-4292-8584-a58ad78a2543.png)
+
+#### Invalid patterns
+
 Below, the blue pattern already existed, placing this tile will not grant any pattern creation points.
 
 ![Pattern4](https://user-images.githubusercontent.com/2688838/224567064-7cab0ebd-b125-4fff-88e5-2649c042e747.png)
 
-Below is an odd example, but valid nonetheless. Because the pattern didn't exist yet, creating the pattern of 5 yellows on the right grants 2 points. A pattern is only considered already existing if at least 3 tiles were connected. 
+Below, the tile is placed on the right side of an existing one. When placing a tile on the right or left of an existing tile, only horizontal patterns - pointing left or right - can be counted on that axis. The 3 yellows facing up do not count as a pattern. Similarly, if a tile is placed above or below an existing tile, only vertical patterns - pointing up or down - can be counted on that axis.
 
-![Pattern5](https://user-images.githubusercontent.com/2688838/224566532-00f5341c-c7e2-4292-8584-a58ad78a2543.png)
+![Pattern6](https://user-images.githubusercontent.com/2688838/224571677-5ff43be9-d049-4597-a748-84ed37f64bff.png)
+
 
 ### Scoring example
 
