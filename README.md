@@ -19,7 +19,7 @@ Ruhd is a card game. Each card is a square tile where each side has a color and 
 
 ## Taking turns
 
-1. Place a tile from you hand beside at least 1 tile on the board
+1. Place a tile from your hand beside at least 1 tile on the board
 2. Score your points
 3. Draw a tile from the deck, if the deck is not empty
 
