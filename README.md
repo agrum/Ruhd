@@ -9,7 +9,7 @@ Ruhd is a card game. Each card is a square tile where each side has a color and 
 ## Setup
 
 1. Shuffle the deck
-2. Place as many tiles are there are players on the table in an zig-zag shape, this will be the starting board
+2. Place as many tiles as there are players on the table in an zig-zag shape, this will be the starting board
 4. Set the drawing deck face down, 5 cards per player
 6. Set aside the remaining tiles, they will not be played during this game
 7. Draw the first 4 tiles from the deck and place them face up in a line beside the deck, this will represent the shared open hand for the players
@@ -21,18 +21,17 @@ Ruhd is a card game. Each card is a square tile where each side has a color and 
   * The shared open hand
   * Any of the tile face down on the board, except the last one that was placed
 3. Score your points
-4. Pick a tile From the shared open hand and place it face down over 1 face up tile on the board
+4. Pick a tile from the shared open hand and place it face down over 1 face up tile on the board
 
-At any point, if the shared open hand is empty, resplenish it up to 4 cards from the deck
+At any point, if the shared open hand is empty, replenish it up to 4 cards from the deck
 
 ## Scoring points
-
-1. One-side rule: If you placed your tile beside no-more than 1 tile on the board, you score 1 point
+1. One-side rule: If you placed your tile beside no more than 1 tile on the board, you score 1 point
 2. Diff-diff rule: If a side from the tile you placed touches a side of a different color, you score the difference between the 2 facing numbers, the higest number minus the smallest number
 3. Same-same rule: If a side from the tile you placed touches a side of the same color and number, you score that number
 4. Pattern rule: If you created a pattern of 3 identical colors or numbers in the same axis of the tile you placed against, you score 2 points. Extending an existing pattern doesn't grant points
 
-All the rules are cummulative:
+All the rules are cumulative:
 - When placing a tile beside more than 1 tile on the board, each side can trigger the Diff-diff or Same-same rule
 - The pattern rule triggers as many times as there were patterns created
 - When placing a tile beside more than 1 tile on the board, each side can trigger pattern rule on their own axis  
