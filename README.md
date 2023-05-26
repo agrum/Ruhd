@@ -9,19 +9,21 @@ Ruhd is a card game. Each card is a square tile where each side has a color and 
 ## Setup
 
 1. Shuffle the deck
-2. Place 3 tiles in an "L" shape on the table, this will be the starting board
-3. Give 2 tiles to each player
-4. Set the drawing deck face down, the number of tiles in it depends on the number of players
-    - 2-4 players: 12 tiles
-    - 5+ players: 2 tiles per player
-5. Set aside the remaining tiles, they will not be played during this game
-6. Select a starting player, however you prefer
+2. Place as many tiles are there are players on the table in an zig-zag shape, this will be the starting board
+4. Set the drawing deck face down, 5 cards per player
+6. Set aside the remaining tiles, they will not be played during this game
+7. Draw the first 4 tiles from the deck and place them face up in a line beside the deck, this will represent the shared open hand for the players
+8. Select a starting player, however you prefer
 
 ## Taking turns
 
-1. Place a tile from your hand beside at least 1 tile on the board
-2. Score your points
-3. Draw a tile from the deck, if the deck is not empty
+1. Place a tile face up beside at least 1 face up tile on the board, you can select your tile from either
+  * The shared open hand
+  * Any of the tile face down on the board, except the last one that was placed
+3. Score your points
+4. Pick a tile From the shared open hand and place it face down over 1 face up tile on the board
+
+At any point, if the shared open hand is empty, resplenish it up to 4 cards from the deck
 
 ## Scoring points
 
@@ -33,11 +35,20 @@ Ruhd is a card game. Each card is a square tile where each side has a color and 
 All the rules are cummulative:
 - When placing a tile beside more than 1 tile on the board, each side can trigger the Diff-diff or Same-same rule
 - The pattern rule triggers as many times as there were patterns created
-- When placing a tile beside more than 1 tile on the board, each side can trigger pattern rule on their own axis 
+- When placing a tile beside more than 1 tile on the board, each side can trigger pattern rule on their own axis  
 
-After scoring, if you drew your new tile, or if the next player already placed their tile, you cannot claim points that you might have forgotten or missed.
+After scoring, if the next player already placed their tile, you cannot claim points that you might have forgotten or missed.
 
 Ruhd doesn't come with scoring tokens, so use a pen and paper, or a scoring app.
+
+### Face down tiles
+
+Face down tiles count as unoccupied spaces, but you cannot place a tile on top of them. You cannot score points from the tile that is covered. Here are the ground rules:
+
+* You cannot score points when uncovering a tile, even if patterns are created, only placing a tile down grants points 
+* You can benefit from the One-side rule even if you place your tile beside one or more face down tiles, face down tiles are considered obstructed empty spaces
+  * You must however place your tile beside at least one face up tile, always
+* Covering a pattern effectively destroys it, allowing you to create it again from a different location and score points again
 
 ### Pattern rule
 
