@@ -9,7 +9,7 @@ Ruhd is a card game. Each card is a square tile where each side has a color and 
 ## Setup
 
 1. Shuffle the deck
-2. Place as many tiles as there are players on the table in an zig-zag shape, this will be the starting board
+2. Place 3 tiles on the table in an "L" shape, this will be the starting board
 4. Set the drawing deck face down, 5 cards per player
 6. Set aside the remaining tiles, they will not be played during this game
 7. Draw the first 4 tiles from the deck and place them face up in a line beside the deck, this will represent the shared open hand for the players
@@ -20,8 +20,8 @@ Ruhd is a card game. Each card is a square tile where each side has a color and 
 1. Place a tile face up beside at least 1 face up tile on the board, you can select your tile from either
   * The shared open hand
   * Any of the tile face down on the board, except the last one that was placed
-3. Score your points
-4. Pick a tile from the shared open hand and place it face down over 1 face up tile on the board
+2. Score your points
+3. Pick a tile from the shared open hand and place it face down over 1 face up tile on the board
 
 At any point, if the shared open hand is empty, replenish it up to 4 cards from the deck
 
