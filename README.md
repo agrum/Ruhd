@@ -1,5 +1,7 @@
 # Ruhd
 
+[![Thumbnail](https://github.com/agrum/Ruhd/assets/2688838/96eef69e-a1ff-4b35-9647-5ced2ee27a97)](https://www.youtube.com/watch?v=5RFVX3wp5zU)
+
 Rules of the card game
 
 ## Overview 
