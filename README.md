@@ -2,6 +2,8 @@
 
 [![ThumbnailLink](https://github-production-user-asset-6210df.s3.amazonaws.com/2688838/248577067-93af244a-5c06-46ee-8eb6-7ee19b1d3153.png)](https://www.youtube.com/watch?v=5RFVX3wp5zU)
 
+If the video linked above isn't enough, below are the written rules.
+
 Rules of the card game
 
 ## Overview 
